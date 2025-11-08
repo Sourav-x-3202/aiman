@@ -1,0 +1,26 @@
+# Virtual environment
+venv/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Output files (keep your repo clean & private)
+outputs/
+*.mp3
+*.wav
+*.png
+*.jpg
+*.jpeg
+
+# Environment variables
+.env
+
+# Logs
+*.log
+
+# OS / IDE files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
