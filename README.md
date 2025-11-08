@@ -16,7 +16,11 @@
   <img src="https://img.shields.io/badge/AI-Offline%20%7C%20Private-blue?style=flat-square" />
   <img src="https://img.shields.io/badge/Made%20with-Streamlit-FF4B4B?logo=streamlit&style=flat-square" />
   <img src="https://img.shields.io/badge/License-MIT-green?style=flat-square" />
+    <a href="https://codespaces.new/Sourav-x-3202/aiman">
+    <img src="https://img.shields.io/badge/Run%20in-Codespaces-purple?style=flat-square&logo=github" />
+  </a>
 </p>
+
 
 ---
 
