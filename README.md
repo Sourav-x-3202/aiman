@@ -112,8 +112,6 @@ flowchart LR
 
 ---
 ##  Installation
-
-
 ### 1. Clone Repo
 
 ```bash
@@ -148,6 +146,49 @@ ollama pull phi3:mini
 ```bash
 streamlit run app.py
 ```
+---
+
+<details>
+<summary>⚠️ Troubleshooting</summary>
+
+### ❌ `ollama: command not found`
+Install Ollama from: https://ollama.com/download  
+Then restart your terminal.
+
+---
+
+### ❌ Model not found / Ollama shows no output
+Run this manually once:
+
+```bash
+ollama pull phi3:mini
+```
+### ❌ GPU not detected (slow performance)
+AIMAN will automatically switch to CPU mode.
+No action needed.
+
+### ❌ Text-to-speech not working (no voice)
+On Windows:
+1. Open Control Panel
+2. Go to: `Speech Recognition → Text to Speech`
+3. Select a male voice (`Guy / David / Microsoft`)
+
+### ❌ `pip install -r requirements.txt` fails
+Upgrade pip first:
+```bash
+python -m pip install --upgrade pip
+```
+If something still fails, install each dependency manually:
+```bash
+pip install streamlit diffusers pillow pyttsx3 accelerate
+```
+### Still stuck?
+
+Create an issue here:
+ https://github.com/Sourav-x-3202/aiman/issues
+
+</details>
+
 
 ---
 
