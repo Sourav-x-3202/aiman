@@ -116,7 +116,7 @@ flowchart LR
 ### 1. Clone Repo
 
 ```bash
-git clone https://github.com/<your-username>/aiman.git
+git clone https://github.com/Sourav-x-3202/aiman.git
 cd aiman
 ```
 
