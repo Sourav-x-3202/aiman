@@ -1,4 +1,5 @@
-<!-- 🔥 Project Banner -->
+
+<!--  Project Banner -->
 <p align="center">
   <img width="100%" src="https://github.com/user-attachments/assets/a30a8186-5429-4ce2-86bf-38a5cc1f0310" alt="AIMAN Cinematic Banner"/>
 </p>
