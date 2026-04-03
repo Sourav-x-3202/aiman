@@ -1,5 +1,5 @@
-
 <!--  Project Banner -->
+
 <p align="center">
   <img width="100%" src="https://github.com/user-attachments/assets/a30a8186-5429-4ce2-86bf-38a5cc1f0310" alt="AIMAN Cinematic Banner"/>
 </p>
@@ -21,7 +21,6 @@
     <img src="https://img.shields.io/badge/Run%20in-Codespaces-purple?style=flat-square&logo=github" />
   </a>
 </p>
-
 
 ---
 
