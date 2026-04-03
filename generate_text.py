@@ -2,6 +2,7 @@
 import requests
 import json
 
+
 def generate_motivation(user_input: str) -> str:
     prompt = f"""
     You are AIMAN — a wise, empathetic, masculine mentor who speaks with calm strength.
@@ -21,6 +22,7 @@ def generate_motivation(user_input: str) -> str:
         if response.status_code != 200:
             return f"⚠️ AIMAN couldn't think right now. (Error {response.status_code})"
 
+        
         # Ollama returns a stream of JSON lines, not a single JSON
         full_output = ""
         for line in response.iter_lines():
